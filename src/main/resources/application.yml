@@ -1,0 +1,17 @@
+server:
+  port: 8080
+mybatis:
+  mapper-locations: classpath:/mybaits/mapper/*.xml
+  config-location:  classpath:/mybatis/config/mybatis-config.xml
+spring:
+  datasource:
+    username: sonar
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.19.1.91:3306/ceshi2?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+
+
+username: sonar
+password: 123456
+driver-class-name: com.mysql.jdbc.Driver
+url: jdbc:mysql://10.19.1.91:3306/ceshi2?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
